@@ -1,5 +1,5 @@
 # STM32 Development
-Resources for embedded microcontroller development with STM32 devices.
+Low-level development and C/Assembly interoperability (AAPCS) resources for the STM32F429 (Cortex-M4F). Exploring ARMv7E-M architecture, Thumb-2 instruction sets, and hardware DSP/FPU optimization
 
 - [ST-Link/V2](/docs/stlinkv2.md)
 - [libopencm3](/docs/libopencm3.md)
