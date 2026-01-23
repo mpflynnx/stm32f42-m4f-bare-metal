@@ -104,9 +104,9 @@
 
 [Top](#table-of-contents)
 ### Arm
-- [ARM Cortex-A Series Programmer's Guide for ARMv7-A](https://developer.arm.com/documentation/den0013/d/Introduction-to-Assembly-Language/Introduction-to-the-GNU-Assembler/GNU-Assembler-syntax)
-- [Arm Compiler for Embedded User Guide](https://developer.arm.com/documentation/100748/0621/Getting-Started/Using-the-integrated-assembler)
-- [Cortex-M4 Technical Reference Manual ](https://developer.arm.com/documentation/ddi0439/be/)
+- [ARMv7-M Architecture Reference Manual](https://developer.arm.com/documentation/ddi0403/ee?lang=en)
+- [Arm Cortex-M4 Processor Technical Reference Manual Revision r0p1](https://developer.arm.com/documentation/100166/0001/?lang=en)
+- [Cortex-M4 Technical Reference Manual - ARM DDI 0439B Errata 01](https://developer.arm.com/documentation/ddi0439/be/)
 - [Learn the architecture - Introducing the Arm architecture](https://developer.arm.com/documentation/102404/latest/)
 
 [Top](#table-of-contents)
