@@ -34,6 +34,12 @@ $ source .venv/bin/activate
 $ .venv/bin/pyocd
 ```
 - Create a new symbolic link named `pyocd` to `.venv/bin/pyocd` and place it in your executable path.
+- If you have `pyocd` errors using Keil Studio for VS Code, make Keil Studio for VS Code use this pyocd install. Append the following to the `.vscode/settings.json` of your CMSIS solution. Change {user} to your linux username
+
+```json
+          "cortex-debug.pyocdPath": "/home/{user}/.venv/bin/pyocd",
+          "arm-debugger.pyocdPath": "/home/{user}/.venv/bin/pyocd"
+```
 
 ### Resource links
 
