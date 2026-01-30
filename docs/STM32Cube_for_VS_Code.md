@@ -1,4 +1,4 @@
-## STM32Cube for VS Code7
+## STM32Cube for VS Code
 
 ```bash
 $ hostnamectl
