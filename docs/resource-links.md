@@ -131,6 +131,10 @@
 
 [Top](#table-of-contents)
 ### IDEs
+- [st.com | STM32CubeMX
+ | STM32Cube initialization code generator](https://www.st.com/en/development-tools/stm32cubemx.html)
+- [youtube.com | STMicroelectronics | Get started with STM32Cube for VS Code: from installation to debugging](https://www.youtube.com/watch?v=aWMni01XGeI)
+- [Visual Studio Code | Extension Packs | STM32CubeIDE for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=stmicroelectronics.stm32-vscode-extension)
 - [st.com | STM32CubeIDE Documentation](https://www.st.com/en/development-tools/stm32cubeide.html#documentation)
 - [pdf | STM32CubeMX for STM32 configuration
 and initialization C code generation](https://www.st.com/content/ccc/resource/technical/document/user_manual/10/c5/1a/43/3a/70/43/7d/DM00104712.pdf/files/DM00104712.pdf/jcr:content/translations/en.DM00104712.pdf)
