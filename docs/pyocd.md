@@ -12,7 +12,7 @@ Operating System: Ubuntu 22.04.5 LTS
 
 ###  Installation
 - Create a new Python virtual environment in your home folder using bash script `new-venv-here.sh`
-- Download [bash script]() and place in your executable path.
+- Download [bash script](docs/new-venv-here.sh) and place in your executable path.
 - Open a new terminal
 ```bash
 $ cd ~
