@@ -28,6 +28,10 @@ How to create a project for use with Visual Studio Code and the STM32CubeIDE for
 
 ### Configuring Visual Studio Code for STM32Cube projects
 - Open **Visual Studio Code**
+- It's best to create a new profile to have its own set of extensions, settings, keyboard shortcuts, and UI layouts.
+- Open the Profiles Menu: Click the Manage gear icon in the bottom-left corner of the window and select Profiles. Alternatively, go to File > Preferences > Profiles.
+- Create a New Profile: Select Create Profile....
+- Configure: Give it a name (e.g., "STM32Cube for VS Code") and choose a base template. You can start with a "Empty" profile if you want to be very selective about which extensions are active.
 - Click on the **Extensions** icon. Enter in the search bar: **stm32cube**. Then select **STM32CubeIDE for Visual Studio Code** from the list of results.
 - Click the **Install** button
 - Wait while the extension and dependencies are downloaded and installed.
