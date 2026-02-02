@@ -23,7 +23,7 @@ Firstly, connect the 32F429I Discovery Board to the Ubuntu based development env
 
 **Probe the hardware**
 ```bash
-st-info probe
+st-info --probe
 ```
 **Flash a .bin file**
 Change to the folder containing the .bin file to flash. In terminal type:
