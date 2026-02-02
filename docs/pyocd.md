@@ -1,6 +1,8 @@
 ## pyOCD
 
-**pyOCD** is an open source Python based tool and package for programming and debugging Arm Cortex-M microcontrollers.
+**pyOCD** is an open source Python based tool and package for programming and debugging Arm Cortex-M microcontrollers. 
+
+**pyOCD** is used by the **Arm Keil Studio Pack (MDK v6)** Visual Studio Code extension. I found the extension had problems with using it's own version of **pcOCD** due to some missing system dependencies. By following the installation instructions detailed below, the extension will use this version and not it's own version.
 
 
 ```bash
@@ -22,27 +24,27 @@ $ new-venv-here.sh
 ```bash
 $ source .venv/bin/activate
 ```
-- The latest stable version of pyOCD may be installed via pip as follows:
+- The latest stable version of **pyOCD** may be installed via pip as follows:
 
 ```bash
 (.venv) ~$ python3 -mpip install -U pyocd
 ```
 - If you haven't already update the udev rules by following the instructions from [here](https://github.com/pyocd/pyOCD/blob/main/udev/README.md).
 
-- check your pyOCD install
+- check your **pyOCD** install
 ```bash
 $ .venv/bin/pyocd
 ```
 - Create a new symbolic link named `pyocd` to `.venv/bin/pyocd` and place it in your executable path.
-- If you have `pyocd` errors using Keil Studio for VS Code, make Keil Studio for VS Code use this pyocd install. Append the following to the `.vscode/settings.json` of your CMSIS solution. Change {user} to your linux username
+<!--- If you have `pyocd` errors using Keil Studio for VS Code, make Keil Studio for VS Code use this pyocd install. Append the following to the `.vscode/settings.json` of your CMSIS solution. Change {user} to your linux username
 
 ```json
           "cortex-debug.pyocdPath": "/home/{user}/.venv/bin/pyocd",
           "arm-debugger.pyocdPath": "/home/{user}/.venv/bin/pyocd"
-```
+```-->
 
-- PyOCD requires a Target Support Pack to know the memory map of the STM32F429. Since you have the Keil Pack installed, pyOCD can usually find the CMSIS-Pack automatically.
-- If it fails to connect or you are using the command line `pyocd` (i.e not via Keil Studio for VS Code), run this in your terminal once:
+- **PyOCD** requires a Target Support Pack to know the memory map of the STM32F429. Since you have the Keil Pack installed, **pyOCD** can usually find the CMSIS-Pack automatically.
+- If it fails to connect or you are using the command line `pyocd` (i.e not via Arm Keil Studio for VS Code), run this in your terminal once:
 ```bash
 $ pyocd pack install stm32f429zi
 ```
