@@ -42,9 +42,17 @@ $ .venv/bin/pyocd
 ```
 
 - PyOCD requires a Target Support Pack to know the memory map of the STM32F429. Since you have the Keil Pack installed, pyOCD can usually find the CMSIS-Pack automatically.
-- If it fails to connect or your are using the command line `pyocd` (i.e not via Keil Studio for VS Code), run this in your terminal once:
+- If it fails to connect or you are using the command line `pyocd` (i.e not via Keil Studio for VS Code), run this in your terminal once:
 ```bash
 $ pyocd pack install stm32f429zi
+```
+- Check installed packages using:-
+```bash
+$ pyocd pack show
+  Pack                 Version  
+--------------------------------
+  Keil.STM32F4xx_DFP   3.1.1    
+
 ```
 
 ### Resource links
