@@ -33,13 +33,6 @@ $ source .venv/bin/activate
 $ .venv/bin/pyocd
 ```
 - Create a new symbolic link named `pyocd` to `.venv/bin/pyocd` and place it in your executable path.
-<!--- If you have `pyocd` errors using Keil Studio for VS Code, make Keil Studio for VS Code use this pyocd install. Append the following to the `.vscode/settings.json` of your CMSIS solution. Change {user} to your linux username
-
-```json
-          "cortex-debug.pyocdPath": "/home/{user}/.venv/bin/pyocd",
-          "arm-debugger.pyocdPath": "/home/{user}/.venv/bin/pyocd"
-```-->
-
 - **PyOCD** requires a Target Support Pack to know the memory map of the STM32F429. Since you have the Keil Pack installed, **pyOCD** can usually find the CMSIS-Pack automatically.
 - If it fails to connect or you are using the command line `pyocd` (i.e not via Arm Keil Studio for VS Code), run this in your terminal once:
 ```bash
@@ -54,12 +47,17 @@ $ pyocd pack show
 ```
 
 ### Arm Keil Studio Pack (MDK v6)
-**pyOCD** is used by the **Arm Keil Studio Pack (MDK v6)** Visual Studio Code extension. I found the extension had problems with using it's own version of **pyOCD** due to some missing system dependencies. By following the installation instructions detailed above, the extension will use this version and not it's own version.
+**pyOCD** is used by the **Arm Keil Studio Pack (MDK v6)** Visual Studio Code extension. I found the extension had problems with using it's own version of **pyOCD** due to some missing system dependencies. 
 
 **Error message**
 ```bash
 [PYI-17495:ERROR] Failed to load Python shared library '/home/mpflynnx/.vscode/extensions/arm.vscode-cmsis-debugger-1.3.0-linux-x64/tools/pyocd/_internal/libpython3.11.so.1.0': /lib/x86_64-linux-gnu/libm.so.6: version `GLIBC_2.38' not found (required by /home/mpflynnx/.vscode/extensions/arm.vscode-cmsis-debugger-1.3.0-linux-x64/tools/pyocd/_internal/libpython3.11.so.1.0)
 ```
+- If you have `pyocd` errors using Keil Studio for VS Code, follow the installation instructions detailed above and rename the Keil Studio extension version of **pyOCD** using the `mv` bash command as detailed below.
+```bash
+$ mv ~/.vscode/extensions/arm.vscode-cmsis-debugger-1.3.0-linux-x64/tools/pyocd/pyocd ~/.vscode/extensions/arm.vscode-cmsis-debugger-1.3.0-linux-x64/tools/pyocd/hiddenpyocd
+```
+- When the **CMSIS** `Load & Debug application` icon is clicked, an extension pop up notification will say it cannot find `pyocd` and will use the `pyocd` from your executable PATH.
 
 ### Resource links
 
