@@ -2,9 +2,6 @@
 
 **pyOCD** is an open source Python based tool and package for programming and debugging Arm Cortex-M microcontrollers. 
 
-**pyOCD** is used by the **Arm Keil Studio Pack (MDK v6)** Visual Studio Code extension. I found the extension had problems with using it's own version of **pcOCD** due to some missing system dependencies. By following the installation instructions detailed below, the extension will use this version and not it's own version.
-
-
 ```bash
 $ hostnamectl
 Operating System: Ubuntu 22.04.5 LTS              
@@ -54,7 +51,14 @@ $ pyocd pack show
   Pack                 Version  
 --------------------------------
   Keil.STM32F4xx_DFP   3.1.1    
+```
 
+### Arm Keil Studio Pack (MDK v6)
+**pyOCD** is used by the **Arm Keil Studio Pack (MDK v6)** Visual Studio Code extension. I found the extension had problems with using it's own version of **pyOCD** due to some missing system dependencies. By following the installation instructions detailed above, the extension will use this version and not it's own version.
+
+**Error message**
+```bash
+[PYI-17495:ERROR] Failed to load Python shared library '/home/mpflynnx/.vscode/extensions/arm.vscode-cmsis-debugger-1.3.0-linux-x64/tools/pyocd/_internal/libpython3.11.so.1.0': /lib/x86_64-linux-gnu/libm.so.6: version `GLIBC_2.38' not found (required by /home/mpflynnx/.vscode/extensions/arm.vscode-cmsis-debugger-1.3.0-linux-x64/tools/pyocd/_internal/libpython3.11.so.1.0)
 ```
 
 ### Resource links
