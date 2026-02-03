@@ -6,6 +6,7 @@ Low-level development and C/Assembly interoperability (AAPCS) resources for the 
 - [OpenOCD](/docs/openocd.md)
 - [STM32 Programming From Scratch | C Programming | Assembler | GCC | Makefile](/docs/stm32-programming-from-scratch.md)
 - [STM32Cube for VS Code: from installation to debugging](/docs/STM32Cube_for_VS_Code.md)
+- [Arm Keil Studio Pack for VS Code installation and debugging](/docs/Keil_Studio_for_VS_Code.md)
 - [pyOCD installation on Ubuntu 22.04.5 LTS ](docs/pyocd.md)
 - [Resoure links](/docs/resource-links.md)
   
