@@ -45,6 +45,8 @@ I found using **Windows 10** and **Visual Studio Code** the most successful setu
 - [STMicroelectronics STM32F429I-DISC1 Board Support Pack (BSP)](https://www.keil.arm.com/packs/stm32f429i-disc1_bsp-keil/overview/)
 - [STMicroelectronics STM32F4 Series Device Family Pack (DFP)](https://www.keil.arm.com/packs/stm32f4xx_dfp-keil/overview/)
 - [Configure STM32 Devices with CubeMX](https://open-cmsis-pack.github.io/cmsis-toolbox/CubeMX/)
+- [Open-CMSIS-Pack | csolution-examples | CubeMX Example](https://github.com/Open-CMSIS-Pack/csolution-examples/tree/main/CubeMX)
 - [Video Tutorials for ARM Keil Studio](https://developer.arm.com/search#f-navigationhierarchiescontenttype=Video%20Tutorial,Video&cf-navigationhierarchiesproducts=Tools%20and%20Software,Keil%20Products&numberOfResults=48)
+
 
 
