@@ -44,7 +44,7 @@ csolution CubeMX.csolution.yml run --generator CubeMX --context-set
 - Select **Categories > System Core > SYS**
 - Update **Debug** to **Serial Wire**
 - Click on **Clock Configuration** tab
-- Update the clock configuration as detailed in document [180Mhz clock setup]()
+- Update the clock configuration as detailed in document [180Mhz clock setup](./180mhz_clock_setup.md)
 - Click on **Project Manager** tab.
 - Notice that **Toolchain / IDE** is set to **MDK-ARM**
 - By default thsi toolchain uses **Arm Compiler 6 (AC6)**. 
