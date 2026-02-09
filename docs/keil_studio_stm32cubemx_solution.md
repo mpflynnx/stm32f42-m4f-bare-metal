@@ -1,5 +1,7 @@
 ## Keil Studio for VS Code
 
+### External Resources
+- [Arm Video Webinar | Working with STM32 devices using Keil Studio](https://armkeil.blob.core.windows.net/developer/Files/videos/KeilStudio/20250729_Working_with_STM32_devices.mp4)
 - [Using STM32 devices with Keil Studio for Visual Studio Code](https://community.st.com/t5/developer-news/using-stm32-devices-with-keil-studio-for-visual-studio-code/ba-p/873652)
 - [github.com | Open-CMSIS-Pack | csolution-examples | CubeMX](https://github.com/Open-CMSIS-Pack/csolution-examples/tree/main/CubeMX)
 
@@ -113,3 +115,5 @@ csolution CubeMX.csolution.yml run --generator CubeMX --context-set
         - file: ./filename3.c
 ```
 - When the project was generated, the entry point `main.c` file will have been created at `STM32CubeMX\STM32F429ZITx\STM32CubeMX\Src\main.c` . Update this file accordingly to use the additional source files.
+
+
