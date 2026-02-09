@@ -36,17 +36,23 @@ I found using **Windows 10** and **Visual Studio Code** the most successful setu
 
 ### External References
 
-- [Using STM32 devices with Keil Studio for Visual Studio Code](https://community.st.com/t5/developer-news/using-stm32-devices-with-keil-studio-for-visual-studio-code/ba-p/873652)
+#### ARM CMSIS Resources
+- [STM32F429I-DISC1 Discovery board](https://www.keil.arm.com/boards/stmicroelectronics-stm32f429i-disc1-revc-06565c3/guide/)
+- [STMicroelectronics STM32F429I-DISC1 Board Support Pack (BSP)](https://www.keil.arm.com/packs/stm32f429i-disc1_bsp-keil/overview/)
+- [STMicroelectronics STM32F4 Series Device Support](https://www.keil.arm.com/packs/stm32f4xx_dfp-keil/overview/)
 - [Arm Keil Studio](https://mdk-packs.github.io/vscode-cmsis-solution-docs/index.html)
 - [vscode cmsis solution docs | Work with CMSIS solutions](https://mdk-packs.github.io/vscode-cmsis-solution-docs/create_app.html)
 - [CMSIS-Toolbox](https://open-cmsis-pack.github.io/cmsis-toolbox/)
 - [Arm Compiler for Embedded](https://developer.arm.com/Tools%20and%20Software/Arm%20Compiler%20for%20Embedded)
 - [Arm Toolchain for Embedded](https://developer.arm.com/Tools%20and%20Software/Arm%20Toolchain%20for%20Embedded)
-- [STMicroelectronics STM32F429I-DISC1 Board Support Pack (BSP)](https://www.keil.arm.com/packs/stm32f429i-disc1_bsp-keil/overview/)
-- [STMicroelectronics STM32F4 Series Device Family Pack (DFP)](https://www.keil.arm.com/packs/stm32f4xx_dfp-keil/overview/)
 - [Configure STM32 Devices with CubeMX](https://open-cmsis-pack.github.io/cmsis-toolbox/CubeMX/)
 - [Open-CMSIS-Pack | csolution-examples | CubeMX Example](https://github.com/Open-CMSIS-Pack/csolution-examples/tree/main/CubeMX)
 - [Video Tutorials for ARM Keil Studio](https://developer.arm.com/search#f-navigationhierarchiescontenttype=Video%20Tutorial,Video&cf-navigationhierarchiesproducts=Tools%20and%20Software,Keil%20Products&numberOfResults=48)
+
+#### ST Microelectronics Resources
+- [Using STM32 devices with Keil Studio for Visual Studio Code](https://community.st.com/t5/developer-news/using-stm32-devices-with-keil-studio-for-visual-studio-code/ba-p/873652)
+
+
 
 
 
