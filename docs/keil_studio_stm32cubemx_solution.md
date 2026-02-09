@@ -51,9 +51,9 @@ csolution CubeMX.csolution.yml run --generator CubeMX --context-set
 - Notice that **Toolchain / IDE** is set to **MDK-ARM**
 - By default thsi toolchain uses **Arm Compiler 6 (AC6)**. 
 - If you wish to use the **GCC** compiler follow the steps detailed [below](#stm32cubemx-target-device-configurations-gcc-compiler).
-- Click on left hand tab: **Code Generator*8
+- Click on left hand tab: **Code Generator**
 - Tick box **Copy only the nessary library files**.
-- Click on **GENERATE CODE*8
+- Click on **GENERATE CODE**
 - Return to **VS Code**, where the project is updated.
 
 ### STM32CubeMX target device configurations (GCC compiler)
