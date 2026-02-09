@@ -1,6 +1,6 @@
 ## Arm Keil Studio Pack for Visual Studio Code
 
-How to create a project for use with **Visual Studio Code** and the **Arm Keil Studio Pack (MDK v6)** extension.
+How to create a project for the **STM32F429 Discovery kit (STM32F429I-DISC1)** using with **Visual Studio Code** and the **Arm Keil Studio Pack (MDK v6)**.
 
 I found using **Windows 10** and **Visual Studio Code** the most successful setup.
 
@@ -47,6 +47,7 @@ I found using **Windows 10** and **Visual Studio Code** the most successful setu
 - [Configure STM32 Devices with CubeMX](https://open-cmsis-pack.github.io/cmsis-toolbox/CubeMX/)
 - [Open-CMSIS-Pack | csolution-examples | CubeMX Example](https://github.com/Open-CMSIS-Pack/csolution-examples/tree/main/CubeMX)
 - [Video Tutorials for ARM Keil Studio](https://developer.arm.com/search#f-navigationhierarchiescontenttype=Video%20Tutorial,Video&cf-navigationhierarchiesproducts=Tools%20and%20Software,Keil%20Products&numberOfResults=48)
+
 
 
 
