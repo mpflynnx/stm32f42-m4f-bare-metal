@@ -7,10 +7,10 @@ Operating System: Ubuntu 22.04.5 LTS
     Architecture: x86-64
 ```
 
-How to create a project for use with Visual Studio Code and the STM32CubeIDE for VS Code extension.
+How to create a project for the **STM32F429 Discovery kit (STM32F429I-DISC1)** using **Visual Studio Code** and the **STM32CubeIDE for VS Code** extension.
 
 ### Creating CMake Project using STM32CubeMX
-- Download and install **STM32CubeMX** STM32Cube initialization code generator from [st.com](https://www.st.com/en/development-tools/stm32cubemx.html#get-software)
+- Download and install **STM32CubeMX** the STM32Cube initialization code generator from [st.com](https://www.st.com/en/development-tools/stm32cubemx.html#get-software)
 - Open **STM32CubeMX**
 - Find **Start My project from ST Board**. Click on **ACCCESS TO BOARD SELECTOR**
 - In the **Commercial Part Number** enter
@@ -24,7 +24,7 @@ How to create a project for use with Visual Studio Code and the STM32CubeIDE for
 - From the **Toolchain / IDE** drop down select **CMake**
 - Click on **GENERATE CODE** button
 - The project should be successfully created in the location given.
-- Close down **STM32CubeMX*
+- Close down **STM32CubeMX**
 
 ### Configuring Visual Studio Code for STM32Cube projects
 - Open **Visual Studio Code**
@@ -39,7 +39,7 @@ How to create a project for use with Visual Studio Code and the STM32CubeIDE for
 ### Using Visual Studio Code with the STM32CubeMX CMake project
 - Click on menu **File | Open Folder...**
 - Navigate to the folder containing the **STM32CubeMX CMake** project.
-- Ignore Bad CMake executaqble: "". check to make sure it is installed
+- Ignore `Bad CMake executable: "". check to make sure it is installed` popup.
 - Click **Yes** to Configure CMake project as STM32Cube project
 - Click Build and select Debug
 - Click on the OUTPUT tab to see the results of the Build process
