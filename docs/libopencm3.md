@@ -122,7 +122,8 @@ int main(void) {
 
 ### Build the project
 ```bash
-make -C my-project
+$ cd my-project
+$ make
 ```
 
 ### Flash the project
