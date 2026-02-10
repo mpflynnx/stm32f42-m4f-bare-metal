@@ -1,7 +1,7 @@
 ## libopencm3
 
 ## Table of Contents
-- [Installation on Ubuntu based distros](#installation-on-ubuntu-based-distros)
+- [Installation](#installation)
 - [Using libopencm3](#using-libopencm3)
 - [Working with libopencm3-template](#working-with-libopencm3-template)
 - [Configure my-project Makefile](#configure-my-project-makefile)
