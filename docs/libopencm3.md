@@ -13,11 +13,16 @@
 
 The `libopencm3` project aims to create an open-source firmware library for various ARM Cortex-M microcontrollers.
 
-### Installation on Ubuntu based distros
+### Installation 
 
-libopencm3 needs compiling once for the project to use it, therefore an `arm-none-eabi/arm-elf` toolchain is required, `arm-none-eabi` is the default in libopencm3 Makefile.
+**libopencm3** needs compiling once for the project to use it, therefore an `arm-none-eabi/arm-elf` toolchain is required, `arm-none-eabi` is the default in **libopencm3** Makefile.
 
+#### Arm GNU Toolchain Installation
+
+- See file [Arm GNU Toolchain Installation for Windows10 x86-64](docs/arm-gnu-toolchain.md)
+- For **Ubuntu** based distros use the built in package manager **apt**
 ```bash
+$ sudo apt update # To update package list first
 $ sudo apt install gcc-arm-none-eabi
 ```
 
