@@ -29,3 +29,15 @@ Copyright (C) 2025 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 ```
+
+### Obtain the Python version used by arm-none-eabi-gdb 
+
+- [Obtain the Python version used by GDB](https://github.com/cyrus-and/gdb-dashboard/wiki/Obtain-the-Python-version-used-by-GDB)
+- Open a Command Prompt or Windows Terminal
+```bash
+> ./arm-none-eabi-gdb --batch -ex 'python import sys; print(sys.version)'
+```
+- The out of the command is
+```bash
+Python scripting is not supported in this copy of GDB.
+```
