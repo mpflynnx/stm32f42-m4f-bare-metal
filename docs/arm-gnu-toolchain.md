@@ -37,7 +37,7 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 ```bash
 > ./arm-none-eabi-gdb --batch -ex 'python import sys; print(sys.version)'
 ```
-- The out of the command is
+- The output of the command is
 ```bash
 Python scripting is not supported in this copy of GDB.
 ```
