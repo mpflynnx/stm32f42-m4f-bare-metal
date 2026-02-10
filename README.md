@@ -4,6 +4,7 @@ Low-level development and C/Assembly interoperability (AAPCS) resources for the 
 - [Arm GNU Toolchain Installation for Windows10 x86-64](/docs/arm-gnu-toolchain.md)
 - [STM32Cube for VS Code: from installation to debugging](/docs/STM32Cube_for_VS_Code.md)
 - [Arm Keil Studio Pack for VS Code installation and debugging](/docs/Keil_Studio_for_VS_Code.md)
+- [Using Arm Keil Studio with STM32CubeMX](docs/keil_studio_stm32cubemx_solution.md)
 - [pyOCD installation on Ubuntu 22.04.5 LTS ](docs/pyocd.md)
 - [ST-Link/V2](/docs/stlinkv2.md)
 - [libopencm3](/docs/libopencm3.md)
