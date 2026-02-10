@@ -19,7 +19,7 @@ The `libopencm3` project aims to create an open-source firmware library for vari
 
 #### Arm GNU Toolchain Installation
 
-- See file [Arm GNU Toolchain Installation for Windows10 x86-64](docs/arm-gnu-toolchain.md)
+- See file [Arm GNU Toolchain Installation for Windows10 x86-64](/docs/arm-gnu-toolchain.md)
 - For **Ubuntu** based distros use the built in package manager **apt**
 ```bash
 $ sudo apt update # To update package list first
