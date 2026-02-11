@@ -13,7 +13,11 @@ I found using **Windows 10** and **Visual Studio Code** the most successful setu
 - Click on the **Extensions** icon. Enter in the search bar: **arm keil**. Then select **Arm Keil Studio Pack (MDK v6)** from the list of results.
 - Click the **Install** button
 - Wait while the extension and dependencies are downloaded and installed.
-
+- Close **Visual Studio Code**
+- Navigate to a folder using **File Explorer** open a terminal there and type 
+```bash
+$ code . --profile "Keil Studio for VS Code"
+```
 ### Creating a new CMSIS solution to complete setup
 
 - Click on the **CMSIS circle tick** Icon on the the left hand bar
@@ -51,6 +55,7 @@ I found using **Windows 10** and **Visual Studio Code** the most successful setu
 
 #### ST Microelectronics Resources
 - [Using STM32 devices with Keil Studio for Visual Studio Code](https://community.st.com/t5/developer-news/using-stm32-devices-with-keil-studio-for-visual-studio-code/ba-p/873652)
+
 
 
 
