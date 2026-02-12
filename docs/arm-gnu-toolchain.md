@@ -1,5 +1,8 @@
 ## Arm GNU Toolchain Installation for Windows10 x86-64
 
+### STM32CubeMX projects for the GCC toolchain
+When using **STM32CubeMX** to configure a device or board, selecting toolchain **STM32CubeIDE** will generate the [startup file]() for use with GCC toolchain.
+
 - [Arm GNU Toolchain Downloads](https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads)
 
 ### Step 1 - Download 
@@ -29,8 +32,10 @@ Copyright (C) 2025 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 ```
+### STM32CubeMX projects for the GCC toolchain
+When using **STM32CubeMX** to configure a device or board, selecting toolchain **STM32CubeIDE** will generate the [startup file]() for use with GCC toolchain.
 
-### Obtain the Python version used by arm-none-eabi-gdb 
+### Obtaining the Python version used by arm-none-eabi-gdb 
 
 - [Obtain the Python version used by GDB](https://github.com/cyrus-and/gdb-dashboard/wiki/Obtain-the-Python-version-used-by-GDB)
 - Open a Command Prompt or Windows Terminal
