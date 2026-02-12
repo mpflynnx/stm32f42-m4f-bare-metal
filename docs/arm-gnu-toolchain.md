@@ -1,7 +1,7 @@
 ## Arm GNU Toolchain Installation for Windows10 x86-64
 
 ### STM32CubeMX projects for the GCC toolchain
-When using **STM32CubeMX** to configure a device or board, selecting toolchain **STM32CubeIDE** will generate the [startup file](../resources/gcc/startup_stm32f429zitx.s) for use with GCC toolchain.
+When using **STM32CubeMX** to configure a device or board, selecting toolchain **STM32CubeIDE** will generate the [startup file](../resources/gcc/startup_stm32f429zitx.s) for use with **Arm GNU toolchain**.
 
 - [Arm GNU Toolchain Downloads](https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads)
 
@@ -32,6 +32,16 @@ Copyright (C) 2025 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 ```
+### Step 5 - Install other tools needed to build projects with the Arm GNU Toolchain on Windows
+In addition to the **Arm GNU toolchain** tools you may also need **make**, **cmake** and **ninja**. These tools are packaged for windows from [WinLibs standalone build of GCC and MinGW-w64 for Windows](https://winlibs.com/#download-release)
+- Download latest **Windows 64-bit release version with MSVCRT runtime and POSIX threads** zip archive
+- Extract archive to folder **C:\mingw64**
+- Setup the Windows Path
+- Press keys **Win+x** then **y**, type in **Find a setting** search bar: **view advanced system settings**, then click on result of search.
+- Click on **Environment Variables...** 
+- Select **Path** under the **System Variables**. 
+- Click **Edit..** then click **New** then enter **C:\mingw64\bin**
+
 ### Obtaining the Python version used by arm-none-eabi-gdb 
 
 - [Obtain the Python version used by GDB](https://github.com/cyrus-and/gdb-dashboard/wiki/Obtain-the-Python-version-used-by-GDB)
