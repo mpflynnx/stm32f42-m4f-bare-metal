@@ -1,7 +1,7 @@
 ## Arm GNU Toolchain Installation for Windows10 x86-64
 
 ### STM32CubeMX projects for the GCC toolchain
-When using **STM32CubeMX** to configure a device or board, selecting toolchain **STM32CubeIDE** will generate the [startup file]() for use with GCC toolchain.
+When using **STM32CubeMX** to configure a device or board, selecting toolchain **STM32CubeIDE** will generate the [startup file](../resources/gcc/startup_stm32f429zitx.s) for use with GCC toolchain.
 
 - [Arm GNU Toolchain Downloads](https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads)
 
