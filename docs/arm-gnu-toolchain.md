@@ -34,7 +34,7 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 ```
 ### Step 5 - Install other tools needed to build projects with the Arm GNU Toolchain on Windows
 In addition to the **Arm GNU toolchain** tools you may also need **make**, **cmake** and **ninja**. These tools are packaged for windows from [WinLibs standalone build of GCC and MinGW-w64 for Windows](https://winlibs.com/#download-release)
-- Download latest **Windows 64-bit release version with MSVCRT runtime and POSIX threads** zip archive
+- Download latest **Windows 64-bit release version with UCRT runtime and POSIX threads** zip archive
 - Extract archive to folder **C:\mingw64**
 - Setup the Windows Path
 - Press keys **Win+x** then **y**, type in **Find a setting** search bar: **view advanced system settings**, then click on result of search.
