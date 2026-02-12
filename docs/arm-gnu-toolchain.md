@@ -32,9 +32,6 @@ Copyright (C) 2025 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 ```
-### STM32CubeMX projects for the GCC toolchain
-When using **STM32CubeMX** to configure a device or board, selecting toolchain **STM32CubeIDE** will generate the [startup file]() for use with GCC toolchain.
-
 ### Obtaining the Python version used by arm-none-eabi-gdb 
 
 - [Obtain the Python version used by GDB](https://github.com/cyrus-and/gdb-dashboard/wiki/Obtain-the-Python-version-used-by-GDB)
