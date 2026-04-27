@@ -33,6 +33,14 @@ For native Windows OpenOCD to see your ST-Link, you must use the WinUSB driver. 
 1. Select ST-LINK/V2-1 (Interface 0).
 1. Switch the driver to WinUSB and click Replace Driver.
 
+##### How to go back to Keil (If you change your mind)
+If you ever want Keil to be able to flash the board again, you have to "undo" the Zadig driver:
+
+1. Open Device Manager.
+1. Find Universal Serial Bus devices -> ST-LINK/V2-1.
+1. Right-click -> Uninstall device (check "Attempt to remove the driver for this device").
+1. Unplug and replug the board. Windows will reinstall the original STMicroelectronics driver, and Keil will see it again.
+
 ### Running openocd
 To run `openocd` with `stlink` using the [command link with no customisation](https://openocd.org/doc-release/html/Running.html#Simple-setup_002c-no-customization)
 
