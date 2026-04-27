@@ -4,8 +4,10 @@ OpenOCD provides on-chip programming and debugging support.
 
 ## Table of Contents
 - [Installation on Ubuntu based distros](#installation-on-ubuntu-based-distros)
+- [Installation on Windows](#installation-on-windows)
 - [Running openocd](#running-openocd)
 - [gdb-multiarch usage](#gdb-multiarch-usage)
+- [arm-none-eabi-gdb usage on Windows](#arm-none-eabi-gdb-usage-on-windows)
 - [View the gpio register memory address](#view-the-gpio-register-memory-address)
 - [Using a .gdbinit file to auto connect to openocd port](#using-a-gdbinit-file-to-auto-connect-to-openocd-port)
 - [Adding a Makefile task to start openocd and gdb-multiarch together](#adding-a-makefile-task-to-start-openocd-and-gdb-multiarch-together)
@@ -96,9 +98,9 @@ tcp        0      0 127.0.0.1:6666          0.0.0.0:*               LISTEN      
 
 Use ctrl + c to invoke the shutdown command.
 
-### gdb-multiarch usage on Ubuntu based distros
+### gdb-multiarch usage 
 
-Open new terminal to debug project. Assumes package `gdb-multiarch` installed.
+On Ubuntu based distros, open new terminal to debug project. Assumes package `gdb-multiarch` installed.
 
 Install `gdb-multiarch` a GNU Debugger (with support for multiple architectures). Alternative [gdb installation options](https://interrupt.memfault.com/blog/installing-gdb).
 
@@ -112,7 +114,7 @@ gdb-multiarch ./awesomesauce.elf
 ```
 
 ### arm-none-eabi-gdb usage on Windows
-Navigate to your project folder (where your .axf or elf is) and run:
+Navigate to your project folder (where your .axf or elf is) and open a command prompt and run:
 ```dos
 arm-none-eabi-gdb .\Objects\binary-name.axf
 ```
