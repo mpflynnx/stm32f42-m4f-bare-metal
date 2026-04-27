@@ -18,6 +18,19 @@ OpenOCD provides on-chip programming and debugging support.
 sudo apt install openocd
 ```
 
+### Installation on Windows
+1. Download OpenOCD: Get the latest Windows `.zip` from [xPack OpenOCD](https://github.com/xpack-dev-tools/openocd-xpack/releases).
+1. Extract & Path: Extract them to `C:\openocd` or suitable alternative location
+1. Environment Variables: Add the `bin` folder to your Windows System PATH.
+
+#### Windows Driver
+For native Windows OpenOCD to see your ST-Link, you must use the WinUSB driver. Windows defaults to a proprietary ST driver that OpenOCD cannot talk to.
+
+1. Download [Zadig](https://zadig.akeo.ie/).
+1. Plug in your board. In Zadig, go to Options > List All Devices.
+1. Select ST-LINK/V2-1 (Interface 0).
+1. Switch the driver to WinUSB and click Replace Driver.
+
 ### Running openocd
 To run `openocd` with `stlink` using the [command link with no customisation](https://openocd.org/doc-release/html/Running.html#Simple-setup_002c-no-customization)
 
@@ -28,6 +41,10 @@ cd my-project
 
 openocd -f /usr/share/openocd/scripts/interface/stlink.cfg \
         -f /usr/share/openocd/scripts/target/stm32f4x.cfg
+```
+Windows terminal
+```bash
+openocd -f interface/stlink.cfg -f target/stm32f4x.cfg
 ```
 **Output**
 ```bash
@@ -79,7 +96,7 @@ tcp        0      0 127.0.0.1:6666          0.0.0.0:*               LISTEN      
 
 Use ctrl + c to invoke the shutdown command.
 
-### gdb-multiarch usage
+### gdb-multiarch usage on Ubuntu based distros
 
 Open new terminal to debug project. Assumes package `gdb-multiarch` installed.
 
@@ -92,6 +109,12 @@ sudo apt install gdb-multiarch
 ```bash
 cd my-project
 gdb-multiarch ./awesomesauce.elf
+```
+
+### arm-none-eabi-gdb usage on Windows
+Navigate to your project folder (where your .axf or elf is) and run:
+```dos
+arm-none-eabi-gdb .\Objects\binary-name.axf
 ```
 
 ```bash
